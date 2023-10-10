@@ -1,1 +1,22 @@
-""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+    <h1>Notes List</h1>
+        <div>
+            <label for="noteType">Select Note Type:</label>
+            <select id="noteType">
+                <option value="parent">Parent Note</option>
+                <option value="child">Child Note</option>
+            </select>
+            <br>
+            <input type="text" id="noteInput" placeholder="Enter a note">   
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <ul id="noteList">
+        </ul>
+</html>
